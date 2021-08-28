@@ -19,7 +19,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
+      <Link color="inherit" href="https://www.Google.com/">
         Sitio Falso
       </Link>{' '}
       {new Date().getFullYear()}
@@ -116,7 +116,6 @@ export default function Paquetes() {
       <CssBaseline />
       <AppBar position="static" color="default" elevation={0}>
       </AppBar>
-      {/* Hero unit */}
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
           Paquetes
@@ -126,7 +125,6 @@ export default function Paquetes() {
           estes ubicado!
         </Typography>
       </Container>
-      {/* End hero unit */}
       <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">
           {tiers.map((tier) => (
